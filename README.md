@@ -5,8 +5,8 @@ Vaadin 7 tryout
 
 # Installation  
   
-## Installing on Eclipse IDE  
-  
+## Installing on Eclipse IDE
+
 1. download and install Eclipse [http://www.eclipse.org/downloads/](http://www.eclipse.org/downloads/)  
 2. download and install Apache Tomcat [http://tomcat.apache.org/](http://tomcat.apache.org/)  
 3. (additional) install Firebug plugin for Firefox [https://getfirebug.com/](https://getfirebug.com/)  
@@ -24,10 +24,10 @@ Vaadin 7 tryout
 5. add Tomcat Runtime Environment  
   - Eclipse > Preferences > Server > Runtime Environments > Add...  
   - Select "Apache Tomcat v?.0" (i had to use v7.0)
-  - proceed the wizard    
-  
-## Creating a project on Eclipse  
-  
+  - proceed the wizard
+
+## Creating a project on Eclipse
+
 1. create new project  
   - File > New Project... > Other... > Vaadin > Vaadin 7 Project > Next  
   - target runtime: Apache Tomcat v7.0 (by default this should be the one added in step 5 of "Installing on Eclipse IDE")  
@@ -37,17 +37,21 @@ Vaadin 7 tryout
 2. set-up and start the Web Server  
   - select 'Servers' tab in the lower panel (Window > Show view > Servers) the added Tomcat should be visible  
   - select "Tomcat v7.0 Server at localhost" right-click > Start or Debug  
-  - open [http://localhost:8080/project-name](http://localhost:8080/project-name) (in my case [http://localhost:8080/first-Vaadin-Eclipse-Project/](http://localhost:8080/first-Vaadin-Eclipse-Project/))  
-  
-## Running a project on Eclipse  
-  
+  - open [http://localhost:8080/project-name](http://localhost:8080/project-name) (in my case [http://localhost:8080/first-Vaadin-Eclipse-Project/](http://localhost:8080/first-Vaadin-Eclipse-Project/))
+
+## Running a project on Eclipse
+
 1. Project Explorer > project-name > right-click > "Run As" or "Debug As" > Run on Server
-  
-# Generate Vaadin project using Maven  
-  
-Maven command:  
-<code>mvn archetype:generate -DarchetypeGroupId=com.vaadin -DarchetypeArtifactId=vaadin-archetype-application -DarchetypeVersion=7.2.3 -DgroupId=your.company -DartifactId=project-name -Dversion=1.0 -Dpackaging=war</code>  
-  
-<code>mvn archetype:generate -DarchetypeGroupId=com.vaadin -DarchetypeArtifactId=vaadin-archetype-application -DarchetypeVersion=7.2.3 -DgroupId=be.seriousbusiness.java.vaadin.maven -DartifactId=first-vaadin-maven-project -Dversion=1.0 -Dpackaging=war</code>  
-  
+
+# Generate Vaadin project using Maven
+
+Maven generate command:  
+<code>mvn archetype:generate -DarchetypeGroupId=com.vaadin -DarchetypeArtifactId=vaadin-archetype-application -DarchetypeVersion=7.2.3 -DgroupId=your.company -DartifactId=project-name -Dversion=1.0 -Dpackaging=war</code>
+
+Maven generate command example:  
+<code>mvn archetype:generate -DarchetypeGroupId=com.vaadin -DarchetypeArtifactId=vaadin-archetype-application -DarchetypeVersion=7.2.3 -DgroupId=be.seriousbusiness.java.vaadin.maven -DartifactId=first-vaadin-maven-project -Dversion=1.0 -Dpackaging=war</code>
+
+Maven compile and package: <code>mvn package</code>  
+Maven run on Jetty: <code>mvn jetty:run</code> [http://localhost:8080/](http://localhost:8080/)
+
 source: [https://vaadin.com/download](https://vaadin.com/download)  
