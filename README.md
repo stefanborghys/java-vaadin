@@ -21,3 +21,16 @@ Vaadin 7 tryout
     - name: Vaadin update  
     - location: [http://vaadin.com/eclipse](http://vaadin.com/eclipse)  
     - proceed the install wizard  
+5. add Tomcat Runtime Environment  
+  - Eclipse > Preferences > Server > Runtime Environments > Add...  
+  - Select "Apache Tomcat v?.0" (i had to use v7.0)
+  - proceed the wizard    
+  
+## Creating a project on Eclipse  
+  
+1. create new project  
+  - File > New Project... > Other... > Vaadin > Vaadin 7 Project > Next  
+  - target runtime: Apache Tomcat v7.0 (by default this should be the one added in step 5 of "Installing on Eclipse IDE")  
+  - configuration: Vaading 7, Java 6, Servlet 3.0  
+  - deployment configuration: Servlet (default)  
+  - proceed the wizard  
