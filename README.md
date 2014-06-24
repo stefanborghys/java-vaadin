@@ -39,3 +39,6 @@ Vaadin 7 tryout
   - select "Tomcat v7.0 Server at localhost" right-click > Start or Debug  
   - open [http://localhost:8080/project-name](http://localhost:8080/project-name) (in my case [http://localhost:8080/first-Vaadin-Eclipse-Project/](http://localhost:8080/first-Vaadin-Eclipse-Project/))  
   
+## Running a project on Eclipse  
+  
+1. Project Explorer > project-name > right-click > "Run As" or "Debug As" > Run on Server
