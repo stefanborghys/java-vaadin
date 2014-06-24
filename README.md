@@ -34,3 +34,8 @@ Vaadin 7 tryout
   - configuration: Vaading 7, Java 6, Servlet 3.0  
   - deployment configuration: Servlet (default)  
   - proceed the wizard  
+2. set-up and start the Web Server  
+  - select 'Servers' tab in the lower panel (Window > Show view > Servers) the added Tomcat should be visible  
+  - select "Tomcat v7.0 Server at localhost" right-click > Start or Debug  
+  - open http://localhost:8080/project-name (in my case [http://localhost:8080/first-Vaadin-Eclipse-Project/](http://localhost:8080/first-Vaadin-Eclipse-Project/)  
+  
