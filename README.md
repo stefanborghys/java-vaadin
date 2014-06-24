@@ -42,3 +42,12 @@ Vaadin 7 tryout
 ## Running a project on Eclipse  
   
 1. Project Explorer > project-name > right-click > "Run As" or "Debug As" > Run on Server
+  
+# Generate Vaadin project using Maven  
+  
+Maven command:  
+<code>mvn archetype:generate -DarchetypeGroupId=com.vaadin -DarchetypeArtifactId=vaadin-archetype-application -DarchetypeVersion=7.2.3 -DgroupId=your.company -DartifactId=project-name -Dversion=1.0 -Dpackaging=war</code>  
+  
+<code>mvn archetype:generate -DarchetypeGroupId=com.vaadin -DarchetypeArtifactId=vaadin-archetype-application -DarchetypeVersion=7.2.3 -DgroupId=be.seriousbusiness.java.vaadin.maven -DartifactId=first-vaadin-maven-project -Dversion=1.0 -Dpackaging=war</code>  
+  
+source: [https://vaadin.com/download](https://vaadin.com/download)  
