@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "first_vaadin_eclipse_project.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in first_vaadin_eclipse_project.scss */
+.first_vaadin_eclipse_project {
+  @include addons;
+  @include first_vaadin_eclipse_project;
+}
