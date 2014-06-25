@@ -3,6 +3,8 @@ java-vaadin
 
 Vaadin 7 tryout
 
+Page: [http://stefanborghys.github.io/java-vaadin](http://stefanborghys.github.io/java-vaadin)
+
 # Installation  
   
 ## Installing on Eclipse IDE
