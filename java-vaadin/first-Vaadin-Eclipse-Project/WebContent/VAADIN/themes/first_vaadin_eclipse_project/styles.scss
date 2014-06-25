@@ -7,3 +7,10 @@
   @include addons;
   @include first_vaadin_eclipse_project;
 }
+
+/* 4.6.3 Styling with CSS */
+.v-Notification.customNotificationStyle{
+	background: #FFFF00;
+	border: 10px solid #C00000;
+	color: black;
+}
