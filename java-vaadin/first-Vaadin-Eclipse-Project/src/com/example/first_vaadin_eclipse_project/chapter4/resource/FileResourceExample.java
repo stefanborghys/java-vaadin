@@ -7,6 +7,13 @@ import com.vaadin.server.VaadinService;
 import com.vaadin.ui.Image;
 import com.vaadin.ui.Link;
 
+/**
+ * Book of Vaadin - Vaadin 7 Edition - 2nd Revision</br>
+ * Chapter 4 - Writing a Server-Side Web Application</br>
+ * 4.4.2 File Resources p73
+ * @author seriousbusiness
+ *
+ */
 public class FileResourceExample {
 	final FileResource fileResource;
 	
