@@ -25,9 +25,11 @@ import com.vaadin.server.VaadinServlet;
  *
  */
 public class CustomSystemMessagesExample extends VaadinServlet {
-	
+	private static final long serialVersionUID = -4805418783828099001L;
+
 	public CustomSystemMessagesExample(){
 		getService().setSystemMessagesProvider(new SystemMessagesProvider(){
+			private static final long serialVersionUID = 8439628638655564687L;
 
 			@Override
 			public SystemMessages getSystemMessages(final SystemMessagesInfo systemMessagesInfo) {
