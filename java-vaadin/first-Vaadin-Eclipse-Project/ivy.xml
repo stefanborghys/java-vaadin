@@ -40,5 +40,11 @@
 		<!-- Compiler for custom widget sets. Should not be deployed -->
 		<dependency org="com.vaadin" name="vaadin-client-compiler"
 			rev="&vaadin.version;" conf="widgetset-compile->default" />
+		
+		<!-- Logging -->
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.7"/>
+		<dependency org="ch.qos.logback" name="logback-core" rev="1.1.2"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.2"/>
+			
 	</dependencies>
 </ivy-module>
