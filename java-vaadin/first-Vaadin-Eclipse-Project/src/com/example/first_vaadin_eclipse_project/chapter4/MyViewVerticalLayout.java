@@ -1,5 +1,6 @@
 package com.example.first_vaadin_eclipse_project.chapter4;
 
+import com.vaadin.server.UserError;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.TextField;
@@ -20,8 +21,10 @@ public class MyViewVerticalLayout extends VerticalLayout {
 
 	public MyViewVerticalLayout(){
 		firstNameTextField=new TextField("Firts name");
+		firstNameTextField.setComponentError(new UserError("The first name cannot be empty")); // Error is turned on when validation fails
 		firstNameLabel=new Label("First name:");
 		lastNameTextField=new TextField("Last name");
+		lastNameTextField.setComponentError(new UserError("The last name cannot be empty")); // Error is turned on when validation fails
 		lastNameLabel=new Label("Last name:");
 		sendButton=new Button("Send");
 		addComponent(firstNameTextField);
