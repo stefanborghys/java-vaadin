@@ -1,9 +1,13 @@
 java-vaadin
 ===========
 
-Vaadin 7 tryout
+Vaadin 7 tryout, following the:  
+**Book of Vaadin**  
+**Vaadin 7 Edition - 2nd Revision**  
+![https://vaadin.com/documents/10187/10396/book73.png/0e899571-a69a-4f3d-8abd-f843135bd313?t=1402317700819](https://vaadin.com/documents/10187/10396/book73.png/0e899571-a69a-4f3d-8abd-f843135bd313?t=1402317700819)  
 
-Page: [http://stefanborghys.github.io/java-vaadin](http://stefanborghys.github.io/java-vaadin)
+Book of Vaadin: [https://vaadin.com/book](https://vaadin.com/book)  
+GitHub page: [http://stefanborghys.github.io/java-vaadin](http://stefanborghys.github.io/java-vaadin)
 
 # Installation  
   
