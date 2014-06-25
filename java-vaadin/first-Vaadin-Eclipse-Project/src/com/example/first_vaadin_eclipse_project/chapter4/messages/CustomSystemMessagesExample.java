@@ -1,4 +1,4 @@
-package com.example.first_vaadin_eclipse_project.chapter4;
+package com.example.first_vaadin_eclipse_project.chapter4.messages;
 
 import com.vaadin.server.CustomizedSystemMessages;
 import com.vaadin.server.SystemMessages;
