@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Vaadin-Package-Version: 1
+Vaadin-Addon: vaadin7/vaadin-charts-1.1.6.jar,vaadin6/vaadin-charts-vaadin6-1.1.6.jar
+Implementation-Vendor: Vaadin Ltd
+Implementation-Title: Vaadin Charts
+Implementation-Version: 1.1.6

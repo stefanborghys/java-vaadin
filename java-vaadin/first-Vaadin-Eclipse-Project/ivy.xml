@@ -22,6 +22,9 @@
 
 		<!-- Vaadin themes -->
 		<dependency org="com.vaadin" name="vaadin-themes" rev="&vaadin.version;" />
+		
+		<!-- Vaadin charts -->
+		<dependency org="com.vaadin.addon" name="vaadin-charts" rev="1.1.6" conf="default->default" />
 
 		<!-- Push support -->
 		<dependency org="com.vaadin" name="vaadin-push" rev="&vaadin.version;" />
